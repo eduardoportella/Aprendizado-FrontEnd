@@ -1,0 +1,25 @@
+@charset "UTF- 8";
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    /* font-family: sans-serif; */
+    /* font-family: monospace; */
+    /* font-family: 'Courier New', Courier, monospace; */
+    /* CSS SAFE FONTS COMBINATIONS */
+    
+    
+    /* Medidas Absolutas
+    cm, mm, in(polegada), px, pt(pontos), pc(paica)
+    Nao se alteram conforme o dispositivo!
+    
+    Medidas Relativas
+    em(Letra M), ex (letra x), rem(relativo ao root), vw (tamanho de tela), %(porcentagem)
+
+
+    W3C RECOMENDA PX E EM!
+    16px tamanho normal
+    16px = em
+
+    */
+    font-size: 2em;
+}

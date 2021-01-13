@@ -1,0 +1,28 @@
+@charset "UTF-8";
+
+
+body {
+
+    background-image: linear-gradient(to right, #40A3F5, #3D94DB, #2F72A8);
+}
+main {
+    background-color: white;
+    border-radius: 10px; /*arredondamento de bordas*/  
+    box-shadow: 5px 5px 30px #173752a9; /*sombra da caixa (direita, baixo, transparência)*/
+    width: 600px; /*largura*/
+    padding: 10px; /*espaço em branco */
+    margin: auto; /*centralizado no site*/
+}
+h1 {
+    color: #F26430;
+    text-align: center;
+    text-shadow: 1px 1px 0px rgba(136, 56, 27, 0.781);
+}
+
+h2 {
+    color: #009B72;
+}
+
+p {
+    text-align: justify;
+}

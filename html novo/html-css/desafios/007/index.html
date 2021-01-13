@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imagem flexível</title>
+</head>
+<body background="red">
+    <h1>Imagem flexível</h1>
+    <p>Não consegue ver a imagem? aumente o tamanho da sua janela</p>
+    <picture>
+        <source media="(max-width: 700px)" srcset="alek-p.jpg" type="image/jpg">
+        <source media="(max-width: 1050px)" srcset="alek-m.jpg" type="image/jpg">
+        <img src="alek-g.jpg" alt="imagem flexível">
+    </picture>
+    
+</body>
+</html>
